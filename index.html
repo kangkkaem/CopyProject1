@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한빛미디어</title>
+    <script src="https://kit.fontawesome.com/1b8f3e056b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- SWIPER 라이브러리연결 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="mainpage">
+        <header id="header">
+            <div class="topnav">
+                <ul class="top_brands">
+                    <li class="home_btn"><a href="" style="color:black;">Home</a></li>
+                    <li><a href="">한빛미디어</a></li>
+                    <li><a href="">한빛아카데미</a></li>
+                    <li><a href="">한빛비즈</a></li>
+                    <li><a href="">한빛라이프</a></li>
+                    <li><a href="">한빛에듀</a></li>
+                    <li><a href="">리얼타임</a></li>
+                    <li><a href="">한빛정보교과서</a></li>
+                    <li><a href="">한빛대관서비스</a></li>
+                </ul>
+                <ul class="top_menu">
+                    <li><a href=""><i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            <span>로그인</span>
+                        </a></li>
+                    <li><a href=""><i class="fa-solid fa-user-plus"></i>
+                            <span>회원가입</span>
+                        </a></li>
+                    <li><a href=""><i class="fa-solid fa-user"></i>
+                            <span>마이한빛</span>
+                        </a></li>
+                    <li><a href=""><i class="fa-solid fa-cart-arrow-down"></i>
+                            <span>장바구니</span>
+                        </a></li>
+                    <li class="lang"><a href=""><span>ENGLISH▶</span></a></li>
+                </ul>
+            </div>
+            <div class="topnav2">
+                <nav class="nav-sticky">
+                    <ul class="navbar">
+                        <li><a href="#"><img src="img/logo.png" class="logo" alt="" /></a></li>
+
+                        <li><a href="Brand.html" class="brand">Brand</a></li>
+                        <li><a href="Channel.html" class="cha">Channel</a></li>
+                        <li><a href="Store.html" class="store">Store</a></li>
+                        <li><a href="Support.html" class="support">Support</a></li>
+                        <li><a href="Event.html" class="event">Event</a></li>
+                        <li><a href="Rights.html" class="rights">Rights</a></li>
+                        <li class="btn-search"><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="content">
+            <!-- swiper 슬라이더01 -->
+            <section class="swiper slide01">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/img/main/s1.JPG"></div>
+                    <div class="swiper-slide"><img src="/img/main/s2.JPG"></div>
+                    <div class="swiper-slide"><img src="/img/main/s3.JPG"></div>
+                    <div class="swiper-slide"><img src="/img/main/s4.JPG"></div>
+                </div>
+                <div class="swiper-button-next"><i class="fa-solid fa-chevron-right fa-3x"
+                        style="color: #34b4a7;"></i></i>
+                </div>
+                <div class="swiper-button-prev"><i class="fa-solid fa-chevron-left fa-3x"
+                        style="color: #34b4a7;"></i></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </section>
+
+            <section id="smallbox" class="section-p1">
+                <div class="sm-box">
+                    <div class="sm-icon"><i class="fa-solid fa-book fa-3x"></i></div>
+                    <h6>기획/원고 모집</h6>
+                </div>
+                <div class="sm-box">
+                    <div class="sm-icon"><i class="fa-solid fa-graduation-cap fa-3x"></i></div>
+                    <h6>교수전용</h6>
+                </div>
+                <div class="sm-box">
+                    <div class="sm-icon"><i class="fa-solid fa-warehouse  fa-3x"></i></i></div>
+                    <h6>대관서비스</h6>
+                </div>
+                <div class="sm-box">
+                    <div class="sm-icon"><i class="fa-solid fa-download fa-3x"></i></div>
+                    <h6>부록/예제소스</h6>
+                </div>
+                <div class="sm-box">
+                    <div class="sm-icon"><i class="fa-regular fa-circle-question fa-3x"></i></div>
+                    <h6>자주묻는질문</h6>
+                </div>
+                <div class="sm-box">
+                    <div class="sm-icon"><i class="fa-solid fa-earth-americas fa-3x"></i></div>
+                    <h6>FOREIGN RIGHTS</h6>
+                </div>
+            </section>
+            <div class="sm-bottom"></div>
+
+            <section class="swiper new-book">
+                <div class="tabflex">
+                    <div class="book_tap" style="margin-top: 50px;">
+                        <!-- 탭 메뉴 제목 -->
+                        <ul class="tabtitle">
+                            <li><a href="#tab01" data-tab="tab01" class="book-nav-tab active">새로나온책</a>
+                            </li>
+                            <li><a href="#tab02" data-tab="tab02" class="book-nav-tab">베스트셀러</a></li>
+                            <li><a href="#tab03"><i class="fa-regular fa-square-plus fa-2x"
+                                        style="color:rgb(177, 174, 174) ;"></i></a>
+                            </li>
+                        </ul>
+                        <!-- 탭메뉴 컨텐트 -->
+                        <div class="slide02">
+                            <!-- swiper 슬라이더02 -->
+                            <div id="tab01" class="booktab active">
+                                <div class="swiper-container">
+                                    <ui class="swiper-wrapper new-box">
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_m">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">32,000원</span>
+                                                <img src="/img/main/n1.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_g">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">13,500원</span>
+                                                <img src="/img/main/n2.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">18,000원</span>
+                                                <img src="/img/main/n3.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">23,000원</span>
+                                                <img src="/img/main/n4.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">20,000원</span>
+                                                <img src="/img/main/n5.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_m">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">38,700원</span>
+                                                <img src="/img/main/n6.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">34,000원</span>
+                                                <img src="/img/main/n7.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_g">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">23,000원</span>
+                                                <img src="/img/main/n8.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_m">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">13,500원</span>
+                                                <img src="/img/main/n9.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_b">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">26,500원</span>
+                                                <img src="/img/main/n10.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_y">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">35,000원</span>
+                                                <img src="/img/main/n11.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">26,800원</span>
+                                                <img src="/img/main/n12.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">12,000원</span>
+                                                <img src="/img/main/n13.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_g">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">12,300원</span>
+                                                <img src="/img/main/n14.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_y">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">13,400원</span>
+                                                <img src="/img/main/n15.jpg">
+                                            </span>
+                                        </li>
+
+                                    </ui>
+                                    <!-- 버튼과 pagination -->
+                                    <div class="swiper-button-next next"><i class="fa-solid fa-circle-arrow-right fa-3x"
+                                            style="color: black" ;></i>
+                                    </div>
+                                    <div class="swiper-button-prev prev"><i class="fa-solid fa-circle-arrow-left fa-3x"
+                                            style="color: black" ;></i>
+                                    </div>
+                                    <div class="swiper-pagination pagi"></div>
+                                </div>
+                            </div>
+
+                            <!-- swiper 슬라이더03 -->
+                            <div id="tab02" class="booktab">
+                                <div class="swiper-container">
+                                    <ui class="swiper-wrapper new-box">
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_m">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">32,000원</span>
+                                                <img src="/img/main/b1.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_g">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">13,500원</span>
+                                                <img src="/img/main/b2.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">18,000원</span>
+                                                <img src="/img/main/b3.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">23,000원</span>
+                                                <img src="/img/main/b4.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">20,000원</span>
+                                                <img src="/img/main/b5.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_m">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">38,700원</span>
+                                                <img src="/img/main/b6.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">34,000원</span>
+                                                <img src="/img/main/b7.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_g">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">23,000원</span>
+                                                <img src="/img/main/b8.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_m">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">13,500원</span>
+                                                <img src="/img/main/b9.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_b">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">26,500원</span>
+                                                <img src="/img/main/b10.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_y">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">35,000원</span>
+                                                <img src="/img/main/b11.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">26,800원</span>
+                                                <img src="/img/main/b12.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_r">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">12,000원</span>
+                                                <img src="/img/main/b13.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_g">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">12,300원</span>
+                                                <img src="/img/main/b14.jpg">
+                                            </span>
+                                        </li>
+                                        <li class="swiper-slide new_box_block">
+                                            <span class="new_box_hidden_y">
+                                                <span class="hidden_icon">
+                                                    <a href=""><i class="fa-solid fa-eye fa-2x"></i></a>
+                                                    <a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                                                </span>
+                                                <span class="price">13,400원</span>
+                                                <img src="/img/main/b15.jpg">
+                                            </span>
+                                        </li>
+                                    </ui>
+                                    <div class="swiper-button-next next"><i class="fa-solid fa-circle-arrow-right fa-3x"
+                                            style="color: black" ;></i>
+                                    </div>
+                                    <div class="swiper-button-prev prev"><i class="fa-solid fa-circle-arrow-left fa-3x"
+                                            style="color: black" ;></i></i>
+                                    </div>
+                                    <div class="swiper-pagination pagi"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="with-hanbit">
+
+                <!-- 커뮤니티 ,데브레터 타이틀 -->
+                <div class="main_community_title">
+                    <div class="hanbit_title">
+                        <p class="hanbit">커뮤니티</p>
+                        <div class="with-icon">
+                            <a href="https://www.hanbit.co.kr/channel/channel_submain.html"><i
+                                    class="fa-brands fa-blogger fa-2x"></i></a>
+                            <a href=""><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+                            <a href=""><i class="fa-brands fa-square-tumblr fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="hanbit_title">
+                        <p class="hanbit">데브레터</p>
+                        <div class="with-icon">
+                            <div class="more_box"><a href="" class="btn_more">more +</a></div>
+                        </div>
+                    </div>
+                </div>
+                
+          
+                <!-- 커뮤니티 -->
+     
+                <div class="comunity_list_wrap">
+                    <div class="comunity_title">
+                        <div class="community_list">
+                            <a href="">
+                                <i class="fa-brands fa-instagram fa-3x"></i>
+                            
+                                <ui class="community_list_ui">
+                                    <li class="community_list_li_title">
+                                        <strong>한빛에듀</strong>
+                                    </li>
+                                    <li class="community_list_li_content">
+                                        <strong>유아에서 초등까지! 아이의 즐거운 성장과 함께합니다.</strong>
+                                    </li>
+                                </ui>
+                            </a>
+                        </div>
+                        <div class="community_list">
+                            <a href="">
+                                <i class="fa-brands fa-google-play fa-3x"></i>
+                            
+                                <ui class="community_list_ui">
+                                    <li class="community_list_li_title">
+                                        <strong>한빛 유튜브</strong>
+                                    </li>
+                                    <li class="community_list_li_content">
+                                        <strong>한빛의 소식을 유튜브에서 만나볼수있습니다.</strong>
+                                    </li>
+                                </ui>
+                            </a>
+                        </div>
+                        <div class="community_list">
+                            <a href="">
+                                <i class="fa-brands fa-facebook fa-3x""></i>
+                            
+                                <ui class="community_list_ui">
+                                    <li class="community_list_li_title">
+                                        <strong>한빛 페이스북</strong>
+                                    </li>
+                                    <li class="community_list_li_content">
+                                        <strong>한빛의 소식을 페이스북에서 만나볼수있습니다.</strong>
+                                    </li>
+                                </ui>
+                            </a>
+                        </div>
+                       
+                    </div>
+                    <!-- 링크 -->
+                    <div class="comunity_link">
+                        <div class="dev_wrap">
+                            <div class="community_l1">
+                                <a href="https://youtu.be/i8AHRYdrvNU?si=G2_d8GIRFcTC2_5O"><img class="" src="https://img.youtube.com/vi/mQ8k4T5wVgE/maxresdefault.jpg"></a>
+                                <P>Celebrating the AI experiments community | labs.google</P>
+                            </div>
+                            <div class="community_l2">
+                                <a href="https://www.youtube.com/live/DQacCB9tDaw?si=V2dvLiwQ945g8v8m"><img class="" src="https://img.youtube.com/vi/DQacCB9tDaw/maxresdefault.jpg"></a>
+                                <p>Introducing GPT-4o, updates to ChatGPT, and more.</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <section class="footer">
+            <div class="footer_border"></div>
+            <div class="footer_wrap">
+                <div class="footer_list">
+                    <div class="footer_l1">
+                        <div class="footer_li_content">
+                            <li>회사소개(KOR|ENG).약도</li>
+                            <li>기획 및 원고 모집</li>
+                            <li>채용.입사지원</li>
+                            <li>FOREIGN RIGHTS</li>
+                            <li>이용약관.개인정보처리방침</li>
+                            <li>사이트맵</li>
+                        </div>
+                    </div>
+                    <div class="footer_l2">
+                        <div class="footer_li_content">
+                            <li class="footer_sub">한빛출판사 구독하기</li>  
+                            <div class="fooer_input">
+                                <input placeholder="YOUR Email Address">
+                                <button class="footer_btn"><i class="fa-solid fa-arrow-right fa-2x"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_l3">
+                        <div class="footer_li_content">
+                            <li style="font-weight: bolder;">한빛출판네트워크</li>
+                            <li>(12345) 서울 용산구 용산1길 1234</li>
+                            <li>대표이사 : 아무개</li>
+                            <li>사업자등록번호 : 123-45-67890</li>
+                            <li>통신판매업신고 : 1111-서울용산구-1234호</li>
+                            <li>고객센터:02-1234-5678 | helloworld@gmail.com</li>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_copyright">
+                    <li>Design inspired by <a href="https://hanbit.co.kr/" target="_blank" style="color: white;">한빛출판네트워크</a></li>
+                    <li>&copy; 2024 Kangkkaem. All rights reserved.</li>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
